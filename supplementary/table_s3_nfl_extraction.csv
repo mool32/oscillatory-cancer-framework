@@ -1,0 +1,23 @@
+loop_id,pathway_name,activator_gene,inhibitor_gene,feedback_type,mechanism,in_cancer_report,in_entropy_paper,literature_PMID
+1,NF-κB / IκBα,RELA,NFKBIA,SEQ,sequestration of NF-κB in cytoplasm,yes,yes,15516999
+2,p53 / Mdm2,TP53,MDM2,ENZ,E3 ubiquitin ligase targeting p53 for degradation,yes,yes,15838523
+3,ERK / DUSP,MAPK1,DUSP1,ENZ,dual-specificity phosphatase dephosphorylating ERK,yes,yes,17496910
+4,Wnt / APC-Axin,CTNNB1,AXIN2,SEQ,scaffold for β-catenin destruction complex,yes,yes,12717450
+5,Notch / FBXW7,NOTCH1,FBXW7,ENZ,F-box E3 ligase targeting NICD for proteasomal degradation,yes,yes,18023131
+6,Circadian (CLOCK-BMAL1 / PER-CRY),ARNTL,PER2,SEQ,transcriptional repression of CLOCK-BMAL1 by PER/CRY complex,yes,no,12397363
+7,Hippo / LATS,YAP1,LATS1,ENZ,kinase phosphorylating YAP for cytoplasmic retention/degradation,yes,yes,25049502
+8,mTOR / TSC,MTOR,TSC1,ENZ,GAP complex inhibiting Rheb GTPase upstream of mTORC1,yes,yes,15314020
+9,JAK-STAT / SOCS,STAT3,SOCS3,ENZ,pseudosubstrate inhibition of JAK + E3 ligase adapter,yes,yes,11909529
+10,TGF-β / SMAD6-7,SMAD3,SMAD7,SEQ,inhibitory SMAD blocks receptor phosphorylation of R-SMADs,yes,yes,9335507
+11,NRF2 / KEAP1,NFE2L2,KEAP1,SEQ,cytoplasmic sequestration and CUL3-mediated ubiquitination,yes,yes,15001544
+12,Hedgehog / SUFU,GLI1,SUFU,ENZ,cytoplasmic sequestration/degradation of GLI transcription factors,yes,yes,17360644
+13,UPR / IRE1-BiP,ERN1,HSPA5,SEQ,"BiP chaperone binds IRE1 lumenal domain, repressing activation",yes,no,15722559
+14,Calcium / SERCA,PLCG1,ATP2A2,ENZ,"SERCA pump restores ER Ca²⁺, terminating cytoplasmic signal",yes,no,12559096
+15,Cell Cycle CKI / CDK,CDK2,CDKN1A,SEQ,stoichiometric CDK inhibitor (p21) binding and inactivation,no,yes,8259215
+16,Rb / E2F,E2F1,RB1,SEQ,"Rb sequesters E2F, blocking transcriptional activation",no,yes,8259210
+17,HIF / VHL,HIF1A,VHL,SEQ,VHL E3 ligase targets hydroxylated HIF-1α for degradation,no,yes,10205047
+18,NFAT / RCAN,NFATC1,RCAN1,SEQ,"RCAN1 inhibits calcineurin phosphatase, blocking NFAT dephosphorylation",no,yes,11331884
+19,PI3K-AKT / PTEN,PIK3CA,PTEN,ENZ,lipid phosphatase dephosphorylating PIP3 to PIP2,no,yes,9468138
+20,Myc / FBXW7,MYC,FBXW7,ENZ,SCF-FBXW7 E3 ligase ubiquitinates phospho-Myc for proteasomal degradation,no,yes,15580293
+21,Id / bHLH,TCF3,ID1,SEQ,Id1 sequesters E2A/TCF3 bHLH factors via dominant-negative heterodimerization,no,yes,2289870
+22,IκBζ / IL-6,IL6,NFKBIZ,SEQ,"IκBζ modulates NF-κB target gene selectivity, dampening IL-6 loop",no,yes,15226429

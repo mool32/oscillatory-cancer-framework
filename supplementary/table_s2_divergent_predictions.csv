@@ -1,0 +1,23 @@
+gene,alternate_name,biochemical_function,pathway,naive_prediction,oscillatory_prediction,actual_cgc_class,correct_framework,category,brief_mechanism
+PTPN11,SHP2,Non-receptor tyrosine phosphatase,ERK/RAS-MAPK,TSG,Oncogene,Oncogene,Oscillatory,A,Dephosphorylates inhibitory pY on RAS-GAP binding sites; paradoxically activates ERK signaling as rise-phase activator
+PPM1D,WIP1,Ser/Thr phosphatase (PP2C family),p53/DDR,TSG,Oncogene,Oncogene,Oscillatory,A,"Dephosphorylates p53, ATM, CHK2; when overexpressed prevents recovery of checkpoint signaling"
+STK11,LKB1,Ser/Thr kinase,AMPK/mTOR,Oncogene,TSG,TSG,Oscillatory,B,Activates AMPK which inhibits mTORC1; recovery-phase brake on growth signaling
+LATS1,LATS1,Ser/Thr kinase,Hippo,Oncogene,TSG,TSG,Oscillatory,B,Phosphorylates YAP/TAZ for degradation; recovery-phase terminator of growth transcription
+LATS2,LATS2,Ser/Thr kinase,Hippo,Oncogene,TSG,TSG,Oscillatory,B,Phosphorylates YAP/TAZ; also activates p53 and inhibits MDM2; recovery-phase terminator
+MAP3K1,MEKK1,Ser/Thr kinase (MAP3K),JNK/MAPK,Oncogene,TSG,TSG,Oscillatory,B,Activates JNK-JUN pro-apoptotic pathway; recovery/pro-death arm; loss disables stress-induced apoptosis
+MAP2K4,MKK4,Ser/Thr kinase (MAP2K),JNK/p38,Oncogene,TSG,TSG,Oscillatory,B,Activates JNK/p38 stress-apoptosis; recovery-phase pro-death signal
+TGFBR2,TGFBR2,Ser/Thr kinase (receptor),TGF-beta,Oncogene,TSG,TSG,Oscillatory,B,Receptor kinase that activates SMAD2/3 growth-inhibitory program; activates recovery/arrest pathway
+TGFBR1,ALK5,Ser/Thr kinase (receptor),TGF-beta,Oncogene,TSG,TSG,Oscillatory,B,Same as TGFBR2; kinase activates growth-inhibitory SMADs
+FBXW7,FBXW7,F-box E3 ligase (SCF complex),Notch/MYC/mTOR/CycE,Ambiguous,TSG,TSG,Oscillatory,C,"Ubiquitinates and degrades MYC, Notch-ICD, Cyclin E, mTOR; recovery-phase cleanup of oncogenic drivers"
+VHL,VHL,E3 ligase adaptor (CRL2),HIF/hypoxia,Ambiguous,TSG,TSG,Oscillatory,C,Ubiquitinates HIF-alpha for degradation under normoxia; recovery from hypoxic transcription
+KEAP1,KEAP1,E3 ligase adaptor (CRL3),NRF2/oxidative stress,Ambiguous,TSG,TSG,Oscillatory,C,Ubiquitinates NRF2 for degradation; recovery from oxidative stress transcription
+RNF43,RNF43,Transmembrane E3 ligase,Wnt,Ambiguous,TSG,TSG,Oscillatory,C,Ubiquitinates Frizzled receptors for endocytosis; recovery-phase termination of Wnt signaling
+CBL,CBL,RING E3 ligase,RTK/ERK,Ambiguous,Context-dependent,Oncogene (mutant),Both partially,C,"WT: TSG via RTK degradation (recovery); mutant: loses ligase, gains PI3K/AKT adaptor (rise-phase)"
+CYLD,CYLD,Deubiquitinase (K63-specific),NF-kB,Ambiguous,TSG,TSG,Oscillatory,D,"Removes K63-ubiquitin chains from TRAF2/6, RIP1; disassembles NF-kB signaling complexes; recovery-phase signal termination"
+TNFAIP3,A20,Dual DUB/E3 ligase,NF-kB,Ambiguous,TSG,TSG,Oscillatory,D,Dual function: removes K63 chains then adds K48 chains; two-step recovery termination of NF-kB
+PIK3R1,p85alpha,Regulatory subunit of PI3K,PI3K/AKT,Oncogene,TSG,TSG,Oscillatory,E,p85 stabilizes but also inhibits p110 catalytic activity; loss releases p110 for deregulated rise-phase
+AXIN1,AXIN1,Scaffold protein (destruction complex),Wnt/beta-catenin,Ambiguous,TSG,TSG,Oscillatory,E,Rate-limiting scaffold of beta-catenin destruction complex; recovery-phase machinery
+NF2,Merlin,Scaffold/membrane-cytoskeleton linker,Hippo,Ambiguous,TSG,TSG,Oscillatory,E,Recruits LATS1/2 to plasma membrane for activation; scaffolds recovery-phase kinase cascade
+GAB2,GAB2,Scaffold/adaptor (docking protein),PI3K/AKT and ERK,TSG or neutral,Oncogene,Oncogene,Oscillatory,E,Amplifies RTK signals by recruiting PI3K and SHP2; rise-phase signal amplifier
+SPOP,SPOP,E3 ligase adaptor (CRL3),AR/BET/Hedgehog,Ambiguous,Context-dependent,TSG (prostate),Oscillatory,F,"Prostate: TSG, degrades AR coactivators (recovery); kidney: oncogene, degrades PTEN/DUSP (attacks recovery)"
+SMAD4,DPC4,Transcription factor/signal transducer,TGF-beta,Ambiguous,TSG,TSG,Oscillatory,G,Co-SMAD mediating growth-inhibitory transcription; effector of recovery/arrest program

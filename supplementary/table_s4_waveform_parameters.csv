@@ -1,0 +1,43 @@
+pathway,cell_type,species,stimulus,period_min,tau_rise_min,tau_recovery_min,asymmetry_A,amplitude,sustained_or_damped,method,citation
+NF-kB,SK-N-AS neuroblastoma,Human,TNF-alpha 10 ng/mL,100,25 (est.),75 (est.),0.25,N:C oscillations,Sustained,RelA-dsRed,"Nelson et al. 2004, Science"
+NF-kB,3T3 fibroblasts,Mouse,TNF-alpha 0.01-10 ng/mL,90-100,20-30 (est.),60-70 (est.),0.28,~4-fold N:C (digital),Sustained,p65-DsRed knock-in,"Tay et al. 2010, Nature"
+NF-kB,GFP-p65 KI MEFs,Mouse,TNF-alpha 10 ng/mL,90 (mode),20-30 (est.),60-70 (est.),0.30,Gradually decreasing,Damped (immortalized),GFP-p65 knock-in,"Zambrano et al. 2016, eLife"
+NF-kB,GFP-p65 KI MEFs,Mouse,TNF-alpha 10 ng/mL,132 (median),30-40 (est.),90-100 (est.),0.28,Decreasing peaks,Sustained (79% cells),GFP-p65 knock-in,"Sung et al. 2009, PLOS ONE"
+NF-kB,MEFs,Mouse,TNF-alpha,100-120 (model),15-30 (model),70-90 (model),0.25,5-10x (EMSA),Damped (WT); sustained (IkBb-/-e-/-),EMSA + model,"Hoffmann et al. 2002, Science"
+NF-kB,MEFs,Mouse,LPS,N/A (non-oscillatory),80-100,Sustained,N/A,Comparable to TNF,Single sustained peak,RelA-GFP,"Covert et al. 2005, Science"
+p53,MCF7 breast carcinoma,Human,gamma-irradiation (various Gy),330 +/- 90,~110 (est.),~220 (est.),0.33,Fixed; CV ~70% between cells,Undamped (single-cell),p53-CFP + Mdm2-YFP,"Lahav et al. 2004, Nat Genet; Geva-Zatorsky et al. 2006, Mol Syst Biol"
+p53,MCF7,Human,NCS 100-400 ng/mL,330,~110 (est.),~220 (est.),0.33,"Fixed, dose-independent","Undamped, excitable",p53-Venus,"Batchelor et al. 2011, Mol Syst Biol"
+p53,MCF7,Human,UV (2 J/m2),Single pulse,~120 (est.),~180 (est.),0.40,Dose-dependent,Single graded pulse,p53-Venus,"Batchelor et al. 2011, Mol Syst Biol"
+p53,"NIH 3T3, HEPA1C1C7",Mouse,"NCS, gamma-irradiation",180-210,~70 (est.),~130 (est.),0.35,Fixed; lower than human,Undamped,p53-YFP,"Stewart-Ornstein & Lahav 2017, Cell Syst"
+ERK,MCF10A mammary epithelial,Human,EGF (0-20 ng/mL),60-240 (FM),5-10 (est.),15-20 (est.),0.28,FRET; FM-encoded,Spontaneous pulses,EKAR-EV (FRET),"Albeck et al. 2013, Mol Cell"
+ERK,MDCK,Canine,Spontaneous + lateral propagation,Variable,5-10 (est.),10-20 (est.),0.30,Constant across propagation,Spontaneous,EKAREV (FRET),"Aoki et al. 2013, Mol Cell"
+ERK,Mouse epidermis (in vivo),Mouse,Spontaneous (SPREADs),Variable,5-10 (est.),10-20 (est.),0.30,Decays during propagation,Spontaneous,EKAREV-NLS (2-photon),"Hiratsuka et al. 2015, eLife"
+ERK,HeLa,Human,EGF 50 ng/mL,Single pulse,~10,~20,0.33,~1.4x nuclear accumulation,Transient,ERK2-YFP,"Shankaran et al. 2009, Mol Cell"
+ERK,PC12,Rat,"EGF (pulsed, microfluidic)",Single transient,3-5,25-40,0.12,FRET ratio,Transient,EKAR2G (FRET),"Ryu et al. 2015, Mol Syst Biol"
+ERK,NIH 3T3,Mouse,Optogenetic (Opto-SOS),Tunable,~6,~6,0.50,Nuclear ERK2 translocation,Tunable,BFP-ERK2,"Toettcher et al. 2013, Cell"
+Hes1,C3H10T1/2 fibroblasts,Mouse,Serum,120,~55 (est.),~65 (est.),0.46,>1.5x mRNA,Sustained (~6 cycles),qRT-PCR + Western,"Hirata et al. 2002, Science"
+Hes1,Neural progenitors,Mouse,Endogenous Notch,120,~60 (est.),~60 (est.),0.50,Luciferase,Sustained,Hes1-luciferase,"Shimojo et al. 2008, Genes Dev"
+Hes1,ES cells,Mouse,BMP/LIF (Notch-independent),180-300,~90-150 (est.),~90-150 (est.),0.50,"Variable, high noise",Sustained,Hes1-Luc2 BAC,"Kobayashi et al. 2009, Genes Dev"
+Hes1,Neural progenitors,Human,Endogenous,~90,~45 (est.),~45 (est.),0.50,-,Sustained,Reporter,Pan et al. 2017
+Hes1 (model),-,Mouse,-,120,~55,~65,0.46,-,-,DDE model,"Monk 2003, Curr Biol"
+Segmentation (Hes7),PSM (in vitro),Mouse,Endogenous,150 +/- 24,~65 (est.),~85 (est.),0.43,-,Sustained,Reporter,"Diaz-Cuadros et al. 2020, Nature"
+Segmentation (Hes7),PSM (in vitro),Human,Endogenous,294 +/- 18,~130 (est.),~164 (est.),0.44,-,Sustained,Reporter,"Diaz-Cuadros et al. 2020, Nature; Matsuda et al. 2020, Science"
+Wnt/Axin2,PSM,Mouse,Endogenous,143 +/- 14,~65 (est.),~78 (est.),0.45,-,Sustained,Axin2-T2A-VenusPEST,"Sonnen et al. 2018, Cell"
+Ca2+,Hepatocytes,Rat,Vasopressin,0.33-several,0.05 (3 s),0.20 (12 s),0.20,>=600 nM (from ~200 nM),"Sustained, FM",Aequorin,"Woods et al. 1986, Nature"
+Ca2+,Hepatocytes,Rat,Phenylephrine,0.33-2,0.05 (3 s),0.07 (4 s),0.43,>=600 nM,"Sustained, FM",Aequorin,"Woods et al. 1986, Nature"
+Ca2+,Hepatocytes,Rat,Norepinephrine,0.43 (26 s mean),0.017 (~1 s),0.08-0.13 (5-8 s),0.15-0.20,-,Sustained,Fura-2,"Dupont lab, 2008"
+Ca2+,T-cells (Jurkat),Human,TCR activation,0.5-several,~seconds,~seconds to min,~0.2-0.4 (est.),300-1000 nM,Sustained/oscillatory,"Fura-2, Fluo-4","Dolmetsch et al. 1998, Nature"
+Ca2+,Pancreatic beta-cells (slow),Mouse,Glucose,2-5,~seconds,~seconds to tens of s,~0.3-0.5 (est.),-,Sustained,"Fura-2, Fluo-4",Multiple refs
+Ca2+,Pancreatic beta-cells (fast),Mouse,Glucose,0.25-1,~seconds,~seconds,~0.3-0.5 (est.),-,Bursting,Fura-2,Multiple refs
+Circadian (PER2),SCN,Mouse,Endogenous,1464 (24.4 h),480 (~8 h),960 (~16 h),0.33,~10x protein,Self-sustained,PER2::LUC,"Yoo et al. 2004, PNAS"
+Circadian (PER2),3T3 fibroblasts,Mouse,Endogenous,~1440 (~24 h),"~480 (~8 h, est.)","~960 (~16 h, est.)",0.33,-,Cell-autonomous,Per2-dLuc,Welsh et al. 2004
+NFAT,BHK cells,Hamster,Ca2+ stimulation,Dependent on Ca2+,11.6 (import t1/2),19.8 (export t1/2),0.63,~40% translocation (20 min stim),Adaptive,GFP-NFAT4,"Tomida et al. 2003, EMBO J"
+NFAT,Mast cells,-,Antigen,Hours (burst cycle),~10 (burst on),Variable off,-,-,Oscillatory bursts (>12 h),Reporter,Yissachar et al. 2013
+JAK-STAT3,C3H10T1/2 fibroblasts,Mouse,"Serum, IL-6",~120,~60 (est.),~60 (est.),0.50,p-STAT3 Western,-,"Western blot, qPCR","Yoshiura et al. 2007, PNAS"
+cAMP,beta-cells (MIN6),Mouse,"Glucagon, GLP-1, glucose",2-10,0.17-0.50 (10-30 s),0.17-0.20 (10-12 s),0.45,-,Synchronized among cells,TIRF (FRET sensor),"Dyachok et al. 2006, Nature"
+cAMP,Dictyostelium,D. discoideum,Endogenous relay,~6,~1-2 (est.),~1-2 (est.),0.50,-,Sustained,FRET sensor,"Sgro et al. 2015, Mol Syst Biol"
+Insulin/pAKT,"Fao hepatoma, HepG2","Rat, Human",Insulin pulse,N/A (transient),~5,~20-25,0.20,-,Transient response,"Western blot, modeling","Kubota et al. 2012, Mol Cell; Shukla et al. 2021, PNAS"
+Akt2 PM recruitment,3T3-L1 adipocytes,Mouse,1 nM insulin,~2,~1 (est.),~1 (est.),0.50,-,Oscillatory,TIRF (TagRFP-Akt2),"Norris et al. 2017, J Cell Sci"
+YAP localization-reset,MCF10A epithelial,Human,Thapsigargin/SOCE,~75,~50,~25,0.67,N:C ratio reset,"Stochastic, not clock-like",CRISPR KI YAP-eGFP,"Franklin et al. 2020, Nat Commun"
+Smad1/Smad6,C3H10T1/2 fibroblasts,Mouse,Serum,~120,~90 (est.),~30 (est.),0.75,-,-,"Western blot, qPCR","Yoshiura et al. 2007, PNAS"
+RhoA,RBL cells (mitotic),Rat,Nocodazole,0.5-5,"0.17-0.25 (10-15 s, est.)","0.25-0.50 (15-30 s, est.)",0.4-0.5,-,Context-dependent,FRET/GBD sensors,BioRxiv 2023
